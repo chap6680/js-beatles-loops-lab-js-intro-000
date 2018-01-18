@@ -30,7 +30,7 @@ let tempA = [];
     do {
       tempA[i] = 'I love the Beatles!';
       i = i + 1;
-    } while (i < getN);
+    } while (i < getN-1);
   }
   return tempA
 }
