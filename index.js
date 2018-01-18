@@ -20,3 +20,17 @@ while (i < arrayFacts.length) {
 return newA
 
 }
+function iLoveTheBeatles(getN) {
+let i =0;
+let tempA = [];
+  if (getN> 15 ) {
+    tempA[0] = 'I love the Beatles!';
+    return tempA;
+  } else {
+    do {
+      tempA[i] = 'I love the Beatles!';
+      i = i + 1;
+    } while (i < getN);
+  }
+  return tempA
+}
