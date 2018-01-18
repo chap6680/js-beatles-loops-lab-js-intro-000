@@ -18,5 +18,5 @@ while (i < arrayFacts.length) {
     i++;
   }
 return newA
-  
+
 }
